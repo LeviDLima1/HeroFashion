@@ -7,8 +7,8 @@ export default function Banner() {
     return (
         <>
             <main className='p-5 md:p-3'>
-                <section className='flex items-center justify-center'>
-                    <div className="h-60 md:h-[70vh] md:w-[70%]">
+                <section>
+                    <div className="h-56 md:h-[70vh] md:w-[70%] m-auto">
                         <Carousel>
                             <img src={banner1} alt="..." className='rounded'/>
                             <img src={banner1} alt="..." className='rounded'/>
