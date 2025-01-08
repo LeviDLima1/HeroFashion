@@ -1,3 +1,10 @@
+import aranha from '/src/assets/Camiseta-Infantil-Homem-Aranha-Marvel-Vermelho.png'
+import maravilha from '/src/assets/mulher-maravilha.png'
+import thor from '/src/assets/thor.png'
+import hulk from '/src/assets/hulk.png'
+import homem_ferro from '/src/assets/homem-ferro.png'
+import flash from '/src/assets/flash.png'
+
 
 const produtos = [
     {
@@ -7,7 +14,7 @@ const produtos = [
       descricao: "Traga o espírito do herói mais ágil de Nova York para o guarda-roupa do seu pequeno. Esta blusa do Homem-Aranha combina conforto e muita ação, perfeita para os fãs do Aranha que adoram explorar com criatividade.",
       personagem: "Homem-Aranha",
       preco: 39.99,
-      imagem: '../src/assets/Camiseta-Infantil-Homem-Aranha-Marvel-Vermelho.png'
+      imagem: aranha
     },
     {
       id: 2,
@@ -16,7 +23,7 @@ const produtos = [
       descricao: "Inspirada na heroína que simboliza coragem e compaixão, esta blusa da Mulher-Maravilha é ideal para crianças cheias de energia e imaginação. Uma peça confortável e cheia de atitude!",
       personagem: "Mulher-Maravilha",
       preco: 39.99,
-      imagem: '../src/assets/mulher-maravilha.png'
+      imagem: maravilha
     },
     {
       id: 3,
@@ -25,7 +32,7 @@ const produtos = [
       descricao: "Que tal vestir o poder de Asgard? Com esta blusa do Thor, os pequenos heróis estarão prontos para enfrentar qualquer desafio com bravura e um toque de magia nórdica.",
       personagem: "Thor",
       preco: 39.99,
-      imagem: '../src/assets/thor.png'
+        imagem: thor
     },
     {
       id: 4,
@@ -34,7 +41,7 @@ const produtos = [
       descricao: "Seja o herói mais engenhoso com esta blusa inspirada no Homem de Ferro. Perfeita para crianças criativas que adoram explorar o mundo com estilo e inteligência.",
       personagem: "Homem de Ferro",
       preco: 39.99,
-      imagem: '../src/assets/homem-ferro.png'
+      imagem: homem_ferro
     },
     {
       id: 5,
@@ -43,7 +50,7 @@ const produtos = [
       descricao: "Canalize a força do herói mais poderoso com esta blusa do Hulk. Confortável e cheia de atitude, ela é perfeita para momentos de diversão e muita ação!",
       personagem: "Hulk",
       preco: 39.99,
-      imagem: '../src/assets/hulk.png'
+      imagem: hulk
     },
     {
         id: 6,
@@ -52,7 +59,7 @@ const produtos = [
         descricao: "Com esta blusa do Flash, seus pequenos vão se sentir mais rápidos que a luz! Uma peça super confortável e cheia de energia para crianças com espírito de velocidade.",
         personagem: "Flash",
         preco: 39.99,
-        imagem: '../src/assets/flash.png'
+        imagem: flash
     }
   ];
 

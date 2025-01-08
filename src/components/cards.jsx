@@ -1,7 +1,7 @@
 import produtos from "../components/array.jsx";
 
 export default function Cards() {
-    console.log('Renderizando Cards');
+    
     return (
         <>
             <main className="p-5 mb-24">
